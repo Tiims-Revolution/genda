@@ -1,11 +1,12 @@
+import { v4 as uuidv4 } from 'uuid'
 
 class Todo {
-  id: number
+  id: string
   description: string
   status: string
 
   constructor (description: string) {
-    this.id = 0
+    this.id = uuidv4()
     this.description = description
     this.status = 'pending'
   }
