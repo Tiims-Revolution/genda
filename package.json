@@ -1,7 +1,12 @@
 {
-  "name": "interview",
-  "version": "0.1.0",
+  "name": "to-do_app",
+  "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Carlos Herrera",
+    "email": "carloshv93@gmail.com",
+    "url": "https://github.com/carloshv93"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -14,6 +19,7 @@
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.2",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
     "eslint": "^8.17.0",
